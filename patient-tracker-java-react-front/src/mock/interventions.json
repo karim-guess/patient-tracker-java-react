@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "description": "Urgence cardiaque",
+    "staff": "Martin",
+    "patient": "Dupont",
+    "véhicule": "Véhicule 1"
+  },
+  {
+    "id": 2,
+    "description": "Accident de la route",
+    "staff": "Bernard",
+    "patient": "Durand",
+    "véhicule": "Véhicule 2"
+  }
+]

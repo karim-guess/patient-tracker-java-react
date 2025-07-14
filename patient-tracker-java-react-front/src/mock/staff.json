@@ -1,0 +1,4 @@
+[
+  { "id": 1, "nom": "Martin", "rôle": "Ambulancier" },
+  { "id": 2, "nom": "Bernard", "rôle": "Infirmier" }
+]
