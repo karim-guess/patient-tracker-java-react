@@ -6,13 +6,18 @@ export default function Dashboard() {
   const interventionsEnCours = interventions.slice(0, 3); // Limite à 3 pour l'aperçu
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white p-8">
+
+
+
+    
+    <div className="  rounded-2xl p-6 shadow-lg max-w-6xl mx-auto bg-gray-900 text-white border border-gray-700">
       <div className="bg-white/5 rounded-2xl p-6 shadow-lg max-w-6xl mx-auto">
         <div className="flex items-start gap-6">
           {/* Logo à gauche, plus petit */}
           <div className="text-blue-500 text-4xl mt-1">
             <FaAmbulance />
           </div>
+          
 
           {/* Texte principal */}
           <div className="flex-1">

@@ -10,16 +10,16 @@ export default function Header() {
   };
 
   return (
-    <header className='bg-white shadow p-4 flex justify-between items-center'>
-      <h1 className='text-xl font-bold'>Gestion des Interventions Médicales</h1>
+    <header className="bg-gradient-to-r from-gray-900 to-gray-800 shadow-md p-3 flex justify-between items-center rounded-xl mt-2 mx-6">
+      <h1 className="text-lg font-semibold text-white">Gestion des Interventions Médicales</h1>
 
-      <div className='text-sm flex items-center gap-4'>
+      <div className="text-sm flex items-center gap-4 text-white">
         {isAuth && (
           <>
             <span>Bienvenue, Utilisateur</span>
             <button
               onClick={handleLogout}
-              className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
+              className="bg-blue-600 hover:bg-blue-700 transition-colors px-3 py-1 rounded-lg shadow"
             >
               Logout
             </button>
