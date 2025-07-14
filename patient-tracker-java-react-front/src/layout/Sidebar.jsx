@@ -30,11 +30,12 @@ export default function Sidebar() {
     >
       {/* Toggle button */}
       <button
-        onClick={() => setCollapsed(!collapsed)}
-        className="absolute top-4 -right-4 bg-gray-800 p-2 rounded-full shadow hover:bg-gray-700 transition"
-      >
-        {collapsed ? <FaChevronRight /> : <FaChevronLeft />}
-      </button>
+  onClick={() => setCollapsed(!collapsed)}
+  className="absolute top-90 right-4 bg-gray-800 p-2 rounded-full shadow hover:bg-gray-700 transition"
+>
+  {collapsed ? <FaChevronRight /> : <FaChevronLeft />}
+</button>
+
 
       {/* Title */}
       <div className="p-4 text-xl font-bold">
