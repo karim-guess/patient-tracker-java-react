@@ -3,7 +3,7 @@
 Application web fullstack React + Java (Spring Boot) pour gérer des utilisateurs / patients / interventions.
 
 ## 🛠️ Technologies
-- Frontend : React, Vite, Tailwind CSS
+- Frontend : React, Vite, Tailwind CSS, daisyui
 - Backend : Java, Spring Boot, PostgreSQL
 - API REST
 
